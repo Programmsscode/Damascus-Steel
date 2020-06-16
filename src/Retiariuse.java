@@ -7,11 +7,11 @@ public class Retiariuse extends Gladiator{
 
 
     public Retiariuse(String name) {
-        super (name, 20, 1);
+        super (name, 15, 1);
     }
 
     @Override
-    public Boolean special(Gladiator enemy) {JOptionPane.showMessageDialog(null,name +""+"çàêèíóë ñåòü íà ñîïåŵíèêà","", JOptionPane.PLAIN_MESSAGE);
+    public Boolean special(Gladiator enemy) {
 
         enemy.takeHits(damage);
         if (enemy.getHitPoints() < 0) return false;

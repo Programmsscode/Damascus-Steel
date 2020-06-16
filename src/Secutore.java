@@ -4,7 +4,8 @@ public class Secutore extends Gladiator{
 
 
 	public Secutore(String name) {
-      super(name,10,2);
+
+		super(name,10,2);
 	    }
 
 
