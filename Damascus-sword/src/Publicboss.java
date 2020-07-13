@@ -1,3 +1,13 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author kodachi
+ */
 
 
 import javax.swing.JOptionPane;
@@ -16,8 +26,12 @@ import java.util.Random;
 public class Publicboss {
 static int suchet;
 
-	public static void main(String[] args) throws IOException {
-		JOptionPane.showMessageDialog(null, "░▐█▀█▄─░▄█▀▄─▒▐██▄▒▄██▌─░▄█▀▄─▒▄█▀▀█░▐█▀█▒█▒█▒▄█▀▀█     ▒▄█▀▀█▒█░░░▄░░▒█▒▐█▀▀█▌▒▐█▀▀▄░▐█▀█▄\n" + "░▐█▌▐█░▐█▄▄▐█░▒█░▒█░▒█░░▐█▄▄▐█▒▀▀█▄▄░▐█──▒█▒█▒▀▀█▄▄     ▒▀▀█▄▄▒█░░▒█░░▒█▒▐█▄▒█▌▒▐█▒▐█░▐█▌▐█\n" + "░▐█▄█▀░▐█─░▐█▒▐█░░░░▒█▌░▐█─░▐█▒█▄▄█▀░▐█▄█▒▀▄▀▒█▄▄█▀     ▒█▄▄█▀░▒▀▄▀▒▀▄▀░▒▐██▄█▌▒▐█▀▄▄░▐█▄█▀\n" + "\n", "", JOptionPane.PLAIN_MESSAGE);
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) throws IOException{
+       
+ JOptionPane.showMessageDialog(null, "░▐█▀█▄─░▄█▀▄─▒▐██▄▒▄██▌─░▄█▀▄─▒▄█▀▀█░▐█▀█▒█▒█▒▄█▀▀█     ▒▄█▀▀█▒█░░░▄░░▒█▒▐█▀▀█▌▒▐█▀▀▄░▐█▀█▄\n" + "░▐█▌▐█░▐█▄▄▐█░▒█░▒█░▒█░░▐█▄▄▐█▒▀▀█▄▄░▐█──▒█▒█▒▀▀█▄▄     ▒▀▀█▄▄▒█░░▒█░░▒█▒▐█▄▒█▌▒▐█▒▐█░▐█▌▐█\n" + "░▐█▄█▀░▐█─░▐█▒▐█░░░░▒█▌░▐█─░▐█▒█▄▄█▀░▐█▄█▒▀▄▀▒█▄▄█▀     ▒█▄▄█▀░▒▀▄▀▒▀▄▀░▒▐██▄█▌▒▐█▀▄▄░▐█▄█▀\n" + "\n", "", JOptionPane.PLAIN_MESSAGE);
 		interfaseg chapter = new interfaseg();
 		chapter.setVisible(true);
 
@@ -231,3 +245,5 @@ suchet = 2;
 
 
 //Ezhel Andrey
+
+ 

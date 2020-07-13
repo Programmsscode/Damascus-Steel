@@ -1,5 +1,13 @@
-import javax.swing.JOptionPane;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 
+/**
+ *
+ * @author kodachi
+ */
 public class Retiariuse extends Gladiator{
 
 
@@ -18,3 +26,6 @@ public class Retiariuse extends Gladiator{
         else return true; // åñëè óáèëè âŵàãà, âîçâŵàùàåì true
     }
 }
+
+    
+

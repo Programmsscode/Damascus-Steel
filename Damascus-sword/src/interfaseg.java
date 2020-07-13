@@ -1,3 +1,13 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author kodachi
+ */
 import javax.swing.JOptionPane;
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -13,10 +23,7 @@ import java.util.ArrayList;
 import java.awt.*;
 import javax.swing.*;
 public class interfaseg extends JFrame{
-
-
-
-		private JButton button = new JButton("Играть");
+    	private JButton button = new JButton("Играть");
         private JButton button2 = new JButton("Разрабы");
 private JLabel label = new JLabel ("                                                                        Выберите главу:");
 private JLabel label2 = new JLabel ("   ... DAMASCUS SWORD");
@@ -142,3 +149,4 @@ class ButtonEventListener2 implements ActionListener{
 
 				}}}
 				
+
